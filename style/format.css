@@ -1,17 +1,17 @@
 body{background-color:black}
-h1{text-align:center; color:#299c39}
-h2{color:#299c39}
-h3{color:#299c39}
-h4{color:white}
+h1{text-align:center; color:darkred}
+h2{color:silver}
+h3{color:silver}
+h4{color:silver}
 .ctable{margin-left:auto; margin-right:auto}
-td{color:White; font-size:large; text-align:center}
+td{color:darkred; font-size:large; text-align:center}
 .tdleft{text-align:left}
 .tdright{text-align:right}
-th{color:White; text-align:center; font-size:large}
+th{color:silver; text-align:center; font-size:large}
 p{color:White}
 li{color:White}
-a:hover{color:#299c39}
-a{color:#299c39}
+a:hover{color:darkred}
+a{color:silver}
 
 ul {
 	position:sticky;

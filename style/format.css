@@ -1,0 +1,51 @@
+body{background-color:black}
+h1{text-align:center; color:#299c39}
+h2{color:#299c39}
+h3{color:#299c39}
+h4{color:white}
+.ctable{margin-left:auto; margin-right:auto}
+td{color:White; font-size:large; text-align:center}
+.tdleft{text-align:left}
+.tdright{text-align:right}
+th{color:White; text-align:center; font-size:large}
+p{color:White}
+li{color:White}
+a:hover{color:#299c39}
+a{color:#299c39}
+
+ul {
+	position:sticky;
+	top:0;
+	position: -webkit-sticky;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+li:last-child {
+  border-right: none;
+}

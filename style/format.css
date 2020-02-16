@@ -8,11 +8,12 @@ td{color:darkred; font-size:large; text-align:center}
 .tdleft{text-align:left}
 .tdright{text-align:right}
 th{color:silver; text-align:center; font-size:large}
+.lead{color:darkred}
 p{color:White}
 li{color:White}
 a:hover{color:darkred}
 a{color:silver}
-
+img{float:left; padding:5px}
 ul {
 	position:sticky;
 	top:0;

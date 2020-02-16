@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<title>Classes</title>
+<title>Leadership</title>
 <link rel="stylesheet" type="text/css" href="style/format.css"/>
 </head>
 
@@ -19,44 +19,142 @@
 <h2 style="text-align:center">Kitsu Leadership</h2>
 <table style="margin-left:auto; margin-right:auto">
 	<tr>
-		<th colspan="2">Leader</th>
+		<th class="lead" colspan="2">Leader</th>
 	</tr>
 	<tr>
-		<td colspan="2"><a href="Loka.html">Loka Moonshadow</a></td>
+		<td colspan="2"><a onclick="loka()">Loka Moonshadow</a></td>
 	</tr>
 	<tr>
-		<th colspan="2">Lords</th>
+		<th class="lead" colspan="2">Lords</th>
 	</tr>
 	<tr>
-		<td colspan="2"><a href="kina.html">Iokina Darkstar</a></td>
+		<td colspan="2"><a onclick="kina()">Iokina Darkstar</a></td>
 	</tr>
 	<tr>
-		<th colspan="2">Captains</th>
+		<th class="lead" colspan="2">Captains</th>
 	</tr>
 	<tr>
-		<td class="tdleft">Ariima Fryveia</td>
-		<td class="tdright">Shuryou Windhi</td>
+		<td class="tdleft"><a onclick="ari()">Ariima Fryveia</a></td>
+		<td class="tdright"><a onclick="shu()">Shuryou Windhi</a></td>
 	</tr>
 	<tr>
-		<td class="tdleft">Illyana Rasputina</td>
-		<td class="tdright">Kalec Stormbringer</td>
+		<td class="tdleft"><a onclick="illy()">Illyana Rasputina</a></td>
+		<td class="tdright"><a onclick="kalec()">Kalec Stormbringer</a></td>
 	</tr>
 	<tr>
-		<th colspan="2">Knights</th>
+		<td colspan="2"><a onclick="glen()">Glenn Fryveia</a></td>
 	</tr>
 	<tr>
-		<td class="tdleft">Apop Tygma</td>
-		<td class="tdright">Miyung Choe</td>
+		<th class="lead" colspan="2">Knights</th>
 	</tr>
 	<tr>
-		<td class="tdleft">Seryn Zatos</td>
-		<td class="tdright">Elijah Sir</td>
+		<td class="tdleft"><a onclick="apop()">Apop Tygma</a></td>
+		<td class="tdright"><a onclick="miyu()">Miyung Choe</a></td>
 	</tr>
 	<tr>
-		<td colspan="2">Erixen Qc</td>
-
+		<td class="tdleft"><a onclick="stache()">Seryn Zatos</a></td>
+		<td class="tdright"><a onclick="eli()">Elijah Sir</a></td>
+	</tr>
+	<tr>
+		<td colspan="2"><a onclick="erix()">Erixen Qc</a></td>
 	</tr>
 </table>
+
+<div id="pic">
+</div>
+
+<div id="bio">
+</div>
+
+<div id="info" style="clear:left; text-align:center">
+</div>
+
+<script>
+function loka(){
+	document.getElementById("info").innerHTML = '<a href="https://na.finalfantasyxiv.com/lodestone/character/13371402/">Lodestone Page Here</a>'
+
+	document.getElementById("pic").innerHTML = '<img src="screenshots/loka.png" height=359 width=349 alt="Loka"/>'
+	
+	document.getElementById("bio").innerHTML = '<p></p>'
+}
+function kina(){
+	document.getElementById("info").innerHTML = '<a href="https://na.finalfantasyxiv.com/lodestone/character/181032/">Lodestone Page Here</a>'
+
+	document.getElementById("pic").innerHTML = '<img src="screenshots/kina.png" height=359 width=349 alt="kina"/>'
+	
+	document.getElementById("bio").innerHTML = '<p></p>'
+}
+function ari(){
+	document.getElementById("info").innerHTML = '<a href="https://na.finalfantasyxiv.com/lodestone/character/24504576/">Lodestone Page Here</a>'
+
+	document.getElementById("pic").innerHTML = '<img src="screenshots/ari.png" height=359 width=349 alt="ari"/>'
+	
+	document.getElementById("bio").innerHTML = '<p></p>'
+}
+function shu(){
+	document.getElementById("info").innerHTML = '<a href="https://na.finalfantasyxiv.com/lodestone/character/7840696/">Lodestone Page Here</a>'
+
+	document.getElementById("pic").innerHTML = '<img src="screenshots/shu.png" height=359 width=349 alt="Shuryou"/>'
+	
+	document.getElementById("bio").innerHTML = '<p>A Captain of the Free Company, programmer, and former streamer.</p>'
+}
+function illy(){
+	document.getElementById("info").innerHTML = '<a href="https://na.finalfantasyxiv.com/lodestone/character/21122868/">Lodestone Page Here</a>'
+
+	document.getElementById("pic").innerHTML = '<img src="screenshots/illy.png" height=359 width=349 alt="illy"/>'
+	
+	document.getElementById("bio").innerHTML = '<p></p>'
+}
+function kalec(){
+	document.getElementById("info").innerHTML = '<a href="https://na.finalfantasyxiv.com/lodestone/character/15980567/">Lodestone Page Here</a>'
+
+	document.getElementById("pic").innerHTML = '<img src="screenshots/kalec.png" height=359 width=349 alt="kalec"/>'
+	
+	document.getElementById("bio").innerHTML = '<p></p>'
+}
+function apop(){
+	document.getElementById("info").innerHTML = '<a href="https://na.finalfantasyxiv.com/lodestone/character/26058488/">Lodestone Page Here</a>'
+
+	document.getElementById("pic").innerHTML = '<img src="screenshots/apop.png" height=359 width=349 alt="apop"/>'
+	
+	document.getElementById("bio").innerHTML = '<p></p>'
+}
+function miyu(){
+	document.getElementById("info").innerHTML = '<a href="https://na.finalfantasyxiv.com/lodestone/character/2819929/">Lodestone Page Here</a>'
+
+	document.getElementById("pic").innerHTML = '<img src="screenshots/miyu.png" height=359 width=349 alt="miyu"/>'
+	
+	document.getElementById("bio").innerHTML = '<p></p>'
+}
+function stache(){
+	document.getElementById("info").innerHTML = '<a href="https://na.finalfantasyxiv.com/lodestone/character/23793960/">Lodestone Page Here</a>'
+
+	document.getElementById("pic").innerHTML = '<img src="screenshots/stache.png" height=359 width=349 alt="stache"/>'
+	
+	document.getElementById("bio").innerHTML = '<p></p>'
+}
+function eli(){
+	document.getElementById("info").innerHTML = '<a href="https://na.finalfantasyxiv.com/lodestone/character/2851114/">Lodestone Page Here</a>'
+
+	document.getElementById("pic").innerHTML = '<img src="screenshots/eli.png" height=359 width=349 alt="eli"/>'
+	
+	document.getElementById("bio").innerHTML = '<p></p>'
+}
+function erix(){
+	document.getElementById("info").innerHTML = '<a href="https://na.finalfantasyxiv.com/lodestone/character/6619799/">Lodestone Page Here</a>'
+
+	document.getElementById("pic").innerHTML = '<img src="screenshots/erix.png" height=359 width=349 alt="erix"/>'
+	
+	document.getElementById("bio").innerHTML = '<p></p>'
+}
+function glen(){
+	document.getElementById("info").innerHTML = '<a href="">Lodestone Page Here</a>'
+
+	document.getElementById("pic").innerHTML = '<img src="screenshots/glen.png" height=359 width=349 alt="glen"/>'
+	
+	document.getElementById("bio").innerHTML = '<p></p>'
+}
+</script>
 
 </body>
 </html>

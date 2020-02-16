@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Raids</title>
+<link rel="stylesheet" type="text/css" href="style/format.css"/>
+</head>
+
+<body>
+<!--Nav Bar-->
+<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="leadership.html">Leadership</a></li>
+	<li><a href="raids.html">Raids</a></li>
+	<li><a href="screenshots.html">Screenshots</a></li>
+</ul>
+
+<table style="margin-left:auto; margin-right:auto">
+	<tr>
+		<th colspan="4">Raid Groups</th>
+	</tr>
+	<tr>
+		<td colspan="4">*Click for more Info*</td>
+	</tr>
+	<tr>
+		<td><a onClick="pixie()">The Pixie Butt Raiders</a></td>
+		<td><a onClick="shadow()">The Shadow Foxes</a></td>
+		<td><a onClick="sun()">Raid the Sun</a></td>
+		<td><a onClick="cuisine()">Spicy Asian Cuisine</a></td>
+	</tr>
+</table>
+
+<h1 id="title"></h1>
+
+<h2 id="member"style="text-align:center"></h2>
+<table style="margin-left:auto; margin-right:auto">
+	<tr>
+		<th id="Tanks" colspan="2"></th>
+	</tr>
+	<tr>
+		<td id="tank1" class="tdleft"></td>
+		<td id="tank2" class="tdright"></td>
+	</tr>
+	<tr>
+		<th id="Healer" colspan="2"></th>
+	</tr>
+	<tr>
+		<td id="heal1" class="tdleft"></td>
+		<td id="heal2" class="tdright"></td>
+	</tr>
+	<tr>
+		<th id="DPS"colspan="2"></th>
+	</tr>
+	<tr>
+		<td id="dps1" class="tdleft"></td>
+		<td id="dps2" class="tdright"></td>
+	</tr>
+	<tr>
+		<td id="dps3" class="tdleft"></td>
+		<td id="dps4" class="tdright"></td>
+	</tr>
+</table>
+
+<script>
+ function pixie(){
+	document.getElementById("member").innerHTML = 'Members';
+	document.getElementById("Tanks").innerHTML = 'Tanks';
+	document.getElementById("Healer").innerHTML = 'Healers';
+	document.getElementById("DPS").innerHTML = 'DPS';
+	document.getElementById("title").innerHTML = 'The Pixie Butt Raiders';
+	document.getElementById("tank1").innerHTML = 'Apop Tygma';
+	document.getElementById("tank2").innerHTML = 'Kirara Delacroix';
+	document.getElementById("heal1").innerHTML = 'Loka Moonshadow';
+	document.getElementById("heal2").innerHTML = 'Iokina Darkstar';
+	document.getElementById("dps1").innerHTML = 'Aiess Tatsu';
+	document.getElementById("dps2").innerHTML = 'Dot Whitefang';
+	document.getElementById("dps3").innerHTML = 'Ghel';
+	document.getElementById("dps4").innerHTML = 'Virazia Kivtho';
+ }
+ function shadow(){
+	document.getElementById("member").innerHTML = 'Members';
+	document.getElementById("Tanks").innerHTML = 'Tanks';
+	document.getElementById("Healer").innerHTML = 'Healers';
+	document.getElementById("DPS").innerHTML = 'DPS';
+ 	document.getElementById("title").innerHTML = 'The Shadow Foxes';
+	document.getElementById("tank1").innerHTML = 'Yerentai Sagahl';
+	document.getElementById("tank2").innerHTML = 'Open Slot';
+	document.getElementById("heal1").innerHTML = 'Miyung Choe';
+	document.getElementById("heal2").innerHTML = ' Kasumi Fujiwara';
+	document.getElementById("dps1").innerHTML = 'Yvonne Muhih';
+	document.getElementById("dps2").innerHTML = 'Lillian Watersong';
+	document.getElementById("dps3").innerHTML = 'Seryn Zatos';
+	document.getElementById("dps4").innerHTML = 'Everett Remlorn';
+ }
+ function sun(){
+	document.getElementById("member").innerHTML = 'Members';
+	document.getElementById("Tanks").innerHTML = 'Tanks';
+	document.getElementById("Healer").innerHTML = 'Healers';
+	document.getElementById("DPS").innerHTML = 'DPS';
+ 	document.getElementById("title").innerHTML = 'Raid the Sun';
+	document.getElementById("tank1").innerHTML = 'Daelyhel Axon';
+	document.getElementById("tank2").innerHTML = 'Xenithos';
+	document.getElementById("heal1").innerHTML = 'Ariima Fryveia';
+	document.getElementById("heal2").innerHTML = 'Iokina Darkstar';
+	document.getElementById("dps1").innerHTML = 'Glenys Fryveia';
+	document.getElementById("dps2").innerHTML = 'Bael Kaieru';
+	document.getElementById("dps3").innerHTML = 'Eternal Insanity';
+	document.getElementById("dps4").innerHTML = 'Atago Kure';
+ }
+ function cuisine(){
+	document.getElementById("member").innerHTML = 'Members';
+	document.getElementById("Tanks").innerHTML = 'Tanks';
+	document.getElementById("Healer").innerHTML = 'Healers';
+	document.getElementById("DPS").innerHTML = 'DPS';
+ 	document.getElementById("title").innerHTML = 'Spicy Asian Cuisine';
+	document.getElementById("tank1").innerHTML = 'Iokina Darkstar';
+	document.getElementById("tank2").innerHTML = 'Tai Kadashi';
+	document.getElementById("heal1").innerHTML = 'Foxywillow Axon';
+	document.getElementById("heal2").innerHTML = 'Curry Buns';
+	document.getElementById("dps1").innerHTML = 'Ichigo Sin';
+	document.getElementById("dps2").innerHTML = 'Liavain Axon';
+	document.getElementById("dps3").innerHTML = 'Ember Raphtali';
+	document.getElementById("dps4").innerHTML = 'Eli Vidette';
+ }
+
+</script>
+
+</body>
+</html>
